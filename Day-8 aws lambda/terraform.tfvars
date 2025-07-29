@@ -1,0 +1,5 @@
+aws_region           = "us-east-1"
+lambda_function_name = "viva"
+s3_bucket            = "tombayyaa"
+s3_key               = "lambda/function.zip"
+local_zip_path       = "function.zip"
