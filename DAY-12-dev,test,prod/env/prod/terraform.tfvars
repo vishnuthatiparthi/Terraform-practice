@@ -1,0 +1,11 @@
+ami                 = "ami-0cbbe2c6a1bb2ad63"
+instance_type       = "t3.micro"
+key_name            = "12345"
+subnet_id           = "subnet-03c652a3785e14d52"
+security_group_ids  = ["sg-0b0f6a3c70c0f672c"]
+associate_public_ip = true
+root_volume_size    = 8
+root_volume_type    = "gp2"
+name                = "prod-ec2"
+environment         = "prod"
+project             = "TerraformProject"
